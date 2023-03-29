@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+    background-color: #6cbdb5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    margin: auto;
+    font-size: 1.5em;
+    background-color: white;
+    max-width: 500px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+input#btn {
+    display: block;
+    margin: auto;
+    font-size: 0.8em;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer > p > a {
+    color: white;
+    font-style: italic;
+}
